@@ -1,0 +1,88 @@
+
+:host {
+  display: block;
+  min-height: 100vh;
+
+  color: #000000;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  padding: 15px;
+
+}
+
+header {
+  text-align: center;
+
+  padding: 10px;
+}
+
+header h2 {
+  color: rgb(22, 106, 10);
+}
+
+.info {
+  text-align: center;
+  color: #000000;
+}
+
+.status {
+  color: limegreen;
+  text-align: center;
+  margin: 30px;
+}
+
+.featured {
+  background-color: #3b3020;
+  border: 1px solid #555;
+  padding: 10px;
+}
+
+section {
+  margin-top: 25px;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 8px;
+}
+
+th {
+  background-color: #7e838b;
+}
+
+td {
+  color: orangered;
+  font-weight: bold;
+}
+
+.featured p:last-child {
+  color: #000000;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: #aaa;
+  margin-top: 30px;
+}
+
+.summary td,
+.summary th {
+  background-color: #d6e0f0;
+  color: #222;
+}
